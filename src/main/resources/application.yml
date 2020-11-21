@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springboot-rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: renke
+    password: 123456
+    publisher-confirms: true
+    virtual-host: /renk #这是虚拟交换机
